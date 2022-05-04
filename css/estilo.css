@@ -218,6 +218,10 @@ img{
     align-items: center;
     border-radius:50%;
 }
+.iconos{
+    height:20rem;
+    width:20rem;
+}
 
 .formulario{
     background-color: var(--grisOscuro);
