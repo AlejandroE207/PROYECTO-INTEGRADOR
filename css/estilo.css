@@ -190,10 +190,9 @@ img{
     align-items: center;*/
     display: flex;
     justify-content: center;
-    padding:2rem;
-    border:solid;
+    padding:1rem;
     border-radius:10%;
-    margin:2rem;
+    margin:1rem;
 }
 
 .simply-word{
@@ -207,17 +206,28 @@ img{
 
 #cuenta{
     display: flex;
+    flex-direction:column;
     align-items: center;
     font-family: var(--fuente3);
     position:relative;
     z-index: 2;
-    
+    background-color: var(--blanco);
+    border-radius: 30px;
 }
 
 #cuenta span{
     justify-content:center;
 }
 
+@media (min-width: 768px){
+    #cuenta{
+        flex-direction:row;
+    }
+}
+
+.simply-amount{
+    justify-content: center;
+}
 
 .noticia{
     margin: 2rem;
