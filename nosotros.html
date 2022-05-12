@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOMBREE PI</title>
+    
+    <!--LINKS-->
+    <link rel="icon" href="img/icono.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css2? family=Mukta:wght@700&display=swap" rel="stylesheet">
+
+    <!-- PREFETCH -->
+    <link rel="prefetch" href="index.html" as="document">
+
+    <!-- PRELOAD-->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="preload" href="css/estilo.css" as="style">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <picture class="wrapper_logo">
+                <a href="">
+                    <source class="logo" loading="lazy" srcset="img/WEBP-Google.webp" type="image/webp">
+                    <img class="logo" loading="lazy" src="img/WEBP-Google.jpg" alt="imagen logo">
+                </a>
+            </picture>
+        
+
+        <nav class="menu_principal contenedor">
+            <a href="index.html" class="menu_li_a">Inicio</a>
+            <a href="nosotros.html" class="menu_li_a">Nosotros</a>
+            <a href="" class="menu_li_a">Donaciones :D</a>
+        </nav>
+        </div>
+    </header> <!--Header-->
+    
+    <main class="contenedor sombra">
+        <h1>
+            Nosotros
+        </h1>
+
+        <div class="nosotros contenedor">
+            <div class="nosotros_contenido">
+                <p>
+                    Somos un grupo de jovenes actualmente estudiantes de la profesion Ingenieria de sistemas y
+                    computacion de la Universidad de Cundinamarca, extension Facatativa.
+                </p>
+                <p>
+                    Somos unos jovenes con grandes aspiraciones y la idea de este proyecto nacio porque nos 
+                    gusta el area del deporte por lo cual sabemos lo dificil que es entrar en este mundo por primera
+                    vez ya que se desconoce la tecnica de los ejercicios, se desconoce lo que realmente se debe 
+                    de realizar para obtener resultado, se desconoce los ejercicios correspondientes para cada area del
+                    acondicionamiento fisico como puede ser el Powerlifting, el Culturismo o incluso la Calistenia.
+                </p>
+            </div>
+            
+            <picture class="nosotros_contenedor_img">
+                <source class="nosotros__imagen" loading="lazy" srcset="img/WEBP-Google.webp" type="image/webp">
+                <img class="nosotros_imagen"  loading="lazy" src="img/WEBP-Google.jpg" alt="Logo corporativo">
+            </picture>
+        </div>
+
+        <section class="pronto">
+            <div class="bloque-vs">
+                <h2><b>PRONTO HABRA MAS INFORMACION...</b></h2>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="js/modernizr.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MVX99W9N8X"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-MVX99W9N8X');
+    </script>
+    <script src="js/simplyCountdown.min.js"></script>
+    <script src="js/contador.js"></script>
+</body>
+
+</html>
