@@ -481,3 +481,37 @@ img{
     border-radius: 2rem;
     background-color: #0de3ff;
 }
+
+/**************************************************************
+****************INICIO APP*************************************/
+.transparente{
+    background-color: red;
+}
+
+.main{
+    height:100%;
+    width:50%;
+    align-items: center;
+}
+
+.mainContent{
+    display: flex;
+    flex-direction: column;
+}
+
+.mainContent a{
+    text-decoration: none;
+    color:var(--negro);
+}
+
+.mainContent_h2{
+    margin:0;
+}
+
+.mainContent_img{
+    display: block;
+    margin: 0 auto;
+    width: 5rem;
+    padding: 0;
+}
+
