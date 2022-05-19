@@ -215,6 +215,7 @@ img{
     z-index: 2;
     /*background-color: var(--blanco);*/
     border-radius: 30px;
+    font-family: 'Fredoka One', cursive;
 }
 
 #cuenta span{
@@ -272,7 +273,7 @@ img{
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-    border-radius: 1rem;
+    border-radius: 2rem;
     width: 90%;
     text-align: center;
     margin-top: 1.2rem;
@@ -422,6 +423,33 @@ img{
     }
 }
 
+.linkProfe a{
+    text-decoration: none;
+    color: var(--negro);
+}
+
+.linkProfe{
+    margin-top:0;
+    background-color:var(--blanco);
+    font-size:2rem;
+
+}
+
+.linkProfe {
+    text-decoration: none;
+    color: var(--negro);
+    background-image: linear-gradient(red, rgb(255,0,0));
+    background-position: 50% 100%;
+    background-repeat:no-repeat;
+    background-size: 0% 3px;
+    transition: background-size .5s;
+    padding: 1rem;
+    margin: 0rem 5rem;
+}
+
+.linkProfe:hover, .linkProfe:focus{
+    background-size: 100% 3px;
+}
 /* **********************************
 ****************NOSOTROS*************/
 
@@ -514,4 +542,6 @@ img{
     width: 5rem;
     padding: 0;
 }
+
+
 
