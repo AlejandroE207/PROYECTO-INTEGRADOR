@@ -11,6 +11,7 @@
     --fuente1: 'Pacifico', cursive;
     --fuente2: 'Glory', sans-serif;
     --fuente3: 'Mukta', sans-serif;
+    --fuente4: 'Fredoka One', cursive;
 }
 
 html{
@@ -215,7 +216,7 @@ img{
     z-index: 2;
     /*background-color: var(--blanco);*/
     border-radius: 30px;
-    font-family: 'Fredoka One', cursive;
+    font-family:var(--fuente4);
 }
 
 #cuenta span{
@@ -429,10 +430,18 @@ img{
 }
 
 .linkProfe{
-    margin-top:0;
     background-color:var(--blanco);
     font-size:2rem;
+    text-align: center;
+    border-radius: 2rem;
+    font-family:var(--fuente3);
+}
 
+@media (min-width: 760px){
+    .linkProfe{
+        width:auto;
+        margin: 0,0;
+    }
 }
 
 .linkProfe {
